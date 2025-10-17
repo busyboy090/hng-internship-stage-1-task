@@ -17,7 +17,7 @@ Every element includes a `data-testid` for automated testing.
 ---
 
 ## 🚀 Live Demo
-🔗 [View on Netlify](https://your-live-link.netlify.app)
+🔗 [View on Netlify](https://profile-card-stage-zero.netlify.app)
 
 ---
 
