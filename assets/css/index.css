@@ -41,7 +41,7 @@ article > div:nth-child(2) {
   height: 300px;
   background: rgb(190, 4, 4);
   /* border: 2px solid black; */
-  border-radius: 10px;
+  border-radius: 10px 10px 50px 50px;
   position: relative;
 }
 
@@ -104,7 +104,7 @@ ul li {
     height: 100%;
     background: rgb(190, 4, 4);
     /* border: 2px solid black; */
-    border-radius: 10px;
+    border-radius: 10px 50px 50px 10px;
   }
 
   figure img {
