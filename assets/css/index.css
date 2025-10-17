@@ -16,12 +16,10 @@ body {
 }
 
 article {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 40px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
   overflow: auto;
   position: relative;
   text-wrap: wrap;
@@ -88,19 +86,21 @@ ul li {
 
 .social-links li a {
   color: red;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 768px) {
   article {
-    flex-direction: row;
+    grid-template-columns: 250px 1fr;
     align-items: center;
     height: 300px;
+    width: 600px;
     gap: 80px;
+    overflow: hidden;
   }
 
   .bg-red {
-    width: 300px;
+    /* width: 500px; */
     height: 100%;
     background: rgb(190, 4, 4);
     /* border: 2px solid black; */
@@ -117,5 +117,16 @@ ul li {
   article > div:nth-child(2) {
     padding: 1.5rem 1.5rem 1.5rem 0;
     text-align: center;
+    overflow: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  article > div:nth-child(2)::-webkit-scrollbar {
+    display: none;
+    width: 0;
   }
 }
