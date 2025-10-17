@@ -25,10 +25,15 @@ Every element includes a `data-testid` for automated testing.
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/your-username/profile-card.git
+git clone https://github.com/busyboy090/profile-card.git
+```
 
 ### 2. Navigate into the project folder
+```bash
 cd profile-card
+```
 
 ### 3. Open the project in your browser
+```bash
 open index.html
+```
