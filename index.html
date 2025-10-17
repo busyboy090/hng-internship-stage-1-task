@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+
+    <!-- Font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <div class="bg-red">
+        <figure>
+          <img
+            src="./assets/images/profile-pic.jpg"
+            alt="Profile photo"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+      </div>
+      <div>
+        <header>
+          <h2 class="username" data-testid="test-user-name">Busayo Ale</h2>
+        </header>
+
+        <p class="bio" data-testid="test-user-bio">
+          A passionate fronted developer who loves building web apps and solving
+          real-world problems.
+        </p>
+
+        <p class="time">
+          Current Time: <span data-testid="test-user-time"></span>
+        </p>
+
+        <div
+          style="
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+          "
+        >
+          <section>
+            <h5>Hobbies</h5>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Reading</li>
+              <li>Traveling</li>
+            </ul>
+          </section>
+
+          <section>
+            <h5>Dislikes</h5>
+            <ul data-testid="test-user-dislikes">
+              <li>Spam emails</li>
+              <li>Slow internet</li>
+            </ul>
+          </section>
+        </div>
+
+        <ul class="social-links" data-testid="test-user-social-links">
+          <li>
+            <a
+              href="https://x.com/alebusayo3"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-twitter"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/busyboy090"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
