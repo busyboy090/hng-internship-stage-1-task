@@ -39,4 +39,4 @@ open index.html
 ```
 
 ### Testing
-Automated Testing test script included assets/js/index.js
+Automated test script included assets/js/index.js
