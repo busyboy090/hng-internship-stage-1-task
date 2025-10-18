@@ -37,6 +37,7 @@ cd profile-card
 ```bash
 open index.html
 ```
+---
 
 ### Testing
 Automated test script included assets/js/index.js
