@@ -1,4 +1,4 @@
-# Profile Card - Frontend Wizards Stage 0
+# Profile Card - HNG Internship Stage 0 Task
 
 A simple, accessible, and responsive profile card built with **HTML, CSS, and JavaScript**.  
 Every element includes a `data-testid` for automated testing.
@@ -9,7 +9,7 @@ Every element includes a `data-testid` for automated testing.
 - Semantic HTML structure  
 - Responsive design (mobile, tablet, desktop)  
 - Displays current time in milliseconds  
-- Avatar image (URL or uploaded)  
+- Avatar image  
 - Social links open in new tabs  
 - Hobbies and dislikes sections  
 - Keyboard-friendly and accessible
@@ -37,3 +37,6 @@ cd profile-card
 ```bash
 open index.html
 ```
+
+### Testing
+Automated Testing test script included assets/js/index.js
