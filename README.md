@@ -5,17 +5,6 @@ Every element includes a `data-testid` for automated testing.
 
 ---
 
-## 🧠 Features
-- Semantic HTML structure  
-- Responsive design (mobile, tablet, desktop)  
-- Displays current time in milliseconds  
-- Avatar image  
-- Social links open in new tabs  
-- Hobbies and dislikes sections  
-- Keyboard-friendly and accessible
-
----
-
 ## 🚀 Live Demo
 🔗 [View on Netlify](https://hng-internship-stage-1-task.netlify.app)
 
