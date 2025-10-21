@@ -6,13 +6,40 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100dvh;
   width: 100vw;
   overflow: auto;
-  margin: 0;
-  padding: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: rgb(190, 4, 4);
+  padding: 10px 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  border-bottom: 1.5px solid white;
+  padding-bottom: 2px;
 }
 
 article {
@@ -24,8 +51,8 @@ article {
   overflow: visible;
   position: relative;
   text-wrap: wrap;
-  width: 100%;
-  margin: 1rem;
+  width: 95%;
+  margin: 1rem auto;
   background: white;
 }
 

@@ -1,6 +1,6 @@
-# Profile Card - HNG Internship Stage 0 Task
+# HNG Internship Stage 1 Task
 
-A simple, accessible, and responsive profile card built with **HTML, CSS, and JavaScript**.  
+A simple, accessible, and responsive profile card, contact us page and about me page built with **HTML, CSS, and JavaScript**.  
 Every element includes a `data-testid` for automated testing.
 
 ---
@@ -17,7 +17,7 @@ Every element includes a `data-testid` for automated testing.
 ---
 
 ## 🚀 Live Demo
-🔗 [View on Netlify](https://profile-card-stage-zero.netlify.app)
+🔗 [View on Netlify](https://hng-internship-stage-1-task.netlify.app)
 
 ---
 
@@ -25,19 +25,29 @@ Every element includes a `data-testid` for automated testing.
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/busyboy090/profile-card.git
+git clone https://github.com/busyboy090/hng-internship-stage-1-task.git
 ```
 
 ### 2. Navigate into the project folder
 ```bash
-cd profile-card
+cd hng-internship-stage-1-task
 ```
 
-### 3. Open the project in your browser
+### 3. Open the profile card in your browser
 ```bash
 open index.html
+```
+
+### 4. Open the contact us in your browser
+```bash
+open contact-us.html
+```
+
+### 5. Open the about me in your browser
+```bash
+open about-me.html
 ```
 ---
 
 ### Testing
-Automated test script included assets/js/index.js
+Automated test script for profile card is included in assets/js/index.js, for about me page is included in assets/js/about.js and for contact us page is included in assets/js/contact-us.js
